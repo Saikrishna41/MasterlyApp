@@ -5,6 +5,7 @@ Lightweight Android app built with Jetpack Compose that manages courses (add, vi
 ## Table of contents
 - `Overview`
 - `Features`
+- `Demo`
 - `Tech stack`
 - `Project structure`
 - `Prerequisites`
@@ -22,6 +23,13 @@ MasterlyApp is an Android application demonstrating a simple course management U
 - Navigation between screens
 - Hilt for dependency injection
 - Simple local state handling in ViewModel
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/243f45b8-9cb1-416a-87e2-c14fcbb69be3
+
 
 ## Tech stack
 - Kotlin
