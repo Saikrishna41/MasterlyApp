@@ -1,26 +1,21 @@
 package com.example.masterlyapp.presentation
 
-import android.app.Dialog
 import android.os.Bundle
 import android.text.TextUtils
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.BasicAlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
-import androidx.compose.material3.FloatingActionButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
@@ -43,13 +38,12 @@ import androidx.navigation.compose.rememberNavController
 import com.example.masterlyapp.presentation.navigation.AppNavHost
 import com.example.masterlyapp.presentation.navigation.ErrorScreen
 import com.example.masterlyapp.presentation.navigation.LoadingScreen
-import com.example.masterlyapp.presentation.theme.MasterlyAppTheme
 import com.example.masterlyapp.presentation.viewmodel.CoursesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import com.example.masterlyapp.R
-import com.example.masterlyapp.presentation.navigation.Screens
 import androidx.core.text.isDigitsOnly
 import com.example.masterlyapp.domain.model.Course
+import com.example.masterlyapp.ui.theme.MasterlyAppTheme
 
 
 @AndroidEntryPoint

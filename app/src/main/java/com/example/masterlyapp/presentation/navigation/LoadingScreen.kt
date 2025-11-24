@@ -5,7 +5,7 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.example.masterlyapp.presentation.ui.theme.Purple40
+import com.example.masterlyapp.ui.theme.Purple40
 
 @Composable
 fun LoadingScreen(modifier: Modifier) {
